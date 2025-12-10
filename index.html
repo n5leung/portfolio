@@ -28,17 +28,28 @@
         padding: 0;
       }
 
-      .topbar {
-        width: 100%;
+      .artboard {
         max-width: 1440px;
+        margin: 40px auto 0;
+      }
+
+      .container {
+        max-width: 1200px;
         margin: 0 auto;
-        padding: 20px 30px;
+        padding: 0 20px;
+      }
+
+      .topbar {
+        padding: 20px 0;
+        
+      }
+
+      .topbar .container{
         display: flex;
         align-items: center;
       }
-      
-      
-      nav{
+
+      nav {
         margin-left: auto;
       }
 
@@ -52,32 +63,39 @@
       nav ul li {
         margin: 0px;
       }
-      
-      nav a{
-        padding: 0 10px;
+
+      nav a {
         text-decoration: none;
+        padding: 0 10px;
         color: black;
+
       }
-      
-      
     </style>
 
   </head>
 
   <body>
-    <div class="topbar">
+    <div class="artboard">
 
 
-      <div class="site-title">Natalie Leung</div>
+      <div class="topbar">
+        <div class="container">
+          <div class="site-title">Natalie Leung</div>
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
 
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-        </ul>
-
-
-      </nav>
+      <div class="Heading">
+        <div class="container">
+          <h1 class="big-title">Portfolio</h1>
+          <p class="subtitle">A Graphic Designer</p>
+        </div>
+      </div>
     </div>
   </body>
 
