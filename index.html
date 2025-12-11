@@ -96,25 +96,58 @@
       .first_blog {
         background-color: #7096D1;
         width: 1164px;
-        height: 953px;
+        height: 530px;
         border-radius: 30px;
-        padding: 50px 60px;
         margin: 100px auto;
         max-width: 1200px;
         box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        color: white;
+
+
       }
 
-      .blue-title {
-        font-family: "Dongle", sans-serif;
-        font-size: 90px;
+      .first-image {
+        width: 821px;
+        height: 530px;
+        display: block;
+        margin: 0px;
+        border-radius: 30px;
         margin: 0;
+      }
+
+      .first-title {
+        font-family: "Dongle", sans-serif;
+        font-size: 50px;
+        margin: 0;
+        padding: 0px 53px;
         letter-spacing: 3px;
       }
 
-      .blue-subtitle {
+      .first-subtitle {
         font-family: "Dongle", sans-serif;
-        font-size: 48px;
-        margin: 10px 0 0 0;
+        font-size: 28px;
+        padding: 0px 70px;
+        margin: 0 20 0 35;
+      }
+
+      .button {
+        text-decoration: none;
+        display: inline-block;
+     
+        margin-top: 25px;       
+  margin-left: 92px;      
+  padding: 5px 40px;
+
+        background-color: #FFFFFF;
+        color: #7096D1;
+        border-radius: 20px;
+      }
+      
+      .button:hover{
+        background-color: #DEDEDE;
+      
       }
       
     </style>
@@ -147,21 +180,18 @@
 
       <div class="blog">
         <div class="first_blog">
-          <img class="first-image" src="poster deisgn preview.png" alt="Poster design preview">
-       
-        <h2 class="blue-title"># Photoshop</h2>
-        <p class="blue-subtitle">Generative AI · See Details</p>
+          <img class="first-image" src="poster_design_preview.png" alt="Poster design preview">
+          <div class="first_blog_text">
+            <h2 class="first-title">Poster Design</h2>
+
+            <p class="first-subtitle">#Graphic Design</p>
+            <p class="first-subtitle">#Adobe Express</p>
+            <p class="first-subtitle">#Generative AI</p>
+
+            <a class="button" href="poster_details.html">See Details</a>
+          </div>
+        </div>
       </div>
-
- </div>
-
     </div>
-
-
-
   </body>
-
-
-
-
 </html>
